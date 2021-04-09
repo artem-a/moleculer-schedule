@@ -1,3 +1,4 @@
 coverage/
+src/coverage/
 stats.json
 yarn-error.log
