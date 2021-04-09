@@ -81,7 +81,10 @@ describe('Test Schedule stopped handler', () => {
 
   service.$jobs[0].cancel = jest.fn()
 
-  return broker.start()
-    .then(() => broker.stop())
-    .then(() => expect(service.$jobs[0].cancel).toHaveBeenCalledTimes(1))
+  it('should call the job cancel after stopping the broker', async () => {
+    await broker.start()
+    await broker.stop()
+
+    expect(service.$jobs[0].cancel).toHaveBeenCalledTimes(1)
+  })
 })
