@@ -23,7 +23,7 @@
   "author": "Artem A.",
   "license": "MIT",
   "peerDependencies": {
-    "moleculer": "^0.13.0"
+    "moleculer": "^0.14.13"
   },
   "devDependencies": {
     "benchmarkify": "^2.1.3",
