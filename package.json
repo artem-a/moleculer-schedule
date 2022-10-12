@@ -33,7 +33,7 @@
     "jest-cli": "26.6.3",
     "moleculer": "^0.14.13",
     "nodemon": "^2.0.7",
-    "npm-check": "^5.9.2",
+    "npm-check": "^6.0.1",
     "standard": "^16.0.3"
   },
   "jest": {
